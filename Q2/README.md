@@ -1,19 +1,11 @@
-# Q2. Explain the concept of URL module in Node.js?
+# Q2. 解釋 Node.js 中 URL 模塊的概念？
 
-The URL module in Node.js splits up a web address into readable parts. Then parse an address with the ```url.parse()``` method, and it will return a URL object with each part of the address as properties.
+Node.js 的 URL 模塊提供了各種用於 URL 解析和解析的實用程序 。它是一個內置模塊，有助於將網址拆分為可讀格式。
 
-```javascript
-import url from 'url'
+Run:
 
-const adr = 'https://www.google.com?aaa=123';
-const q = url.parse(adr, true);
-
-console.log(q.host)
-console.log(q.pathname)
-console.log(q.search)
-
-const qdata = q.query
-console.log(qdata.aaa)
+```sh
+node .\Q2\app.mjs
 ```
 
 Output:

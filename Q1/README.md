@@ -1,4 +1,4 @@
-# Q1. How to create a simple server in Node.js that returns Hello World?
+# Q1. 如何在 Node.js 中創建一個返回 Hello World 的簡單服務器？
 
 **Step 01**: Create a project directory
 
@@ -51,6 +51,6 @@ app.listen(port, () =>{
 
 **Step 05**: Run the app
 
-```bah
-node app.mjs
+```sh
+node .\Q1\myapp\app.mjs
 ```
